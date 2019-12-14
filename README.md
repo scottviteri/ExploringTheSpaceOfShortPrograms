@@ -5,6 +5,7 @@ This repository gets a user simultaneously up and running on basic examples of S
 Then only necessary dependency here is the nix package manager, which can be installed using:
 
 curl https://nixos.org/nix/install | sh
+
 . /home/scottviteri/.nix-profile/etc/profile.d/nix.sh
 
 Step into a nix shell using `nix-shell shell.nix` and run `jupyter-notebook ExploringTheSpaceOfShortPrograms.ipynb` to get started.
